@@ -1,7 +1,6 @@
 import './Research.css';
 import { Container, Accordion, Col, Row } from "react-bootstrap";
 import TestRenderer from 'react-test-renderer';
-import Link from "react-dom";
 
 function SubComponent() {
   return (

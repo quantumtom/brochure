@@ -20,8 +20,7 @@ function Contact() {
     setValidated(true);
   };
 
-  return (
-      <Container>
+  return (<Container>
         <Container className={"text-left"}>
           <Row>
             <Col>
@@ -57,7 +56,7 @@ function Contact() {
               </Form.Group>
             </Row>
             <Row className={"mt-3"}>
-              <Form.Group as={Col} md="6" >
+              <Form.Group as={Col} md="6">
                 <Form.Check
                     required
                     label="Agree to terms and conditions"
@@ -73,8 +72,7 @@ function Contact() {
             </Row>
           </Form>
         </Container>
-      </Container>
-  );
+      </Container>);
 }
 
 export default Contact;

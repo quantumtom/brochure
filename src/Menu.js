@@ -14,6 +14,9 @@ function Menu() {
           <Navbar.Collapse id={"basic-navbar-nav"}>
             <Nav className={"me-auto mb-2 mb-lg-0"}>
               <Nav.Item>
+                <Nav.Link href={"/research"}>Research</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
                 <Nav.Link href={"/development"}>Development</Nav.Link>
               </Nav.Item>
               <Nav.Item>
@@ -21,9 +24,6 @@ function Menu() {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href={"/contact"}>Contact</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href={"/research"}>Research</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href={"/test"}>Test</Nav.Link>
