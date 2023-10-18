@@ -4,15 +4,6 @@ import { Row, Col, Accordion } from 'react-bootstrap';
 import jobsData from './work.json';
 
 function Development(props) {
-  let sizeXsLeft = 4;
-  let sizeXsRight = 8;
-  let sizeSmLeft = 4;
-  let sizeSmRight = 8;
-  let sizeMdLeft = 3;
-  let sizeMdRight = 9;
-  let sizeLgLeft = 2;
-  let sizeLgRight = 10;
-
 
   return (
       <Container className={"text-justify"}>
@@ -26,12 +17,12 @@ function Development(props) {
                   <Accordion.Header>{job.title}</Accordion.Header>
                   <Accordion.Body>
                     <Row>
-                      <Col xs={sizeXsLeft} sm={sizeSmLeft} md={sizeMdLeft} lg={sizeLgLeft}>
+                      <Col xs={4} sm={4} md={3} lg={2}>
                         <a href={job.link} rel="noreferrer" target="_blank">
                           <img src={job.image.url} alt={job.title}
                                className="img-responsive thumbnail" /></a>
                       </Col>
-                      <Col xs={sizeXsRight} sm={sizeSmRight} md={sizeMdRight} lg={sizeLgRight}>
+                      <Col xs={8} sm={8} md={9} lg={10}>
                         <p>{job.caption}</p>
                       </Col>
                     </Row>
