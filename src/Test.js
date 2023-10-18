@@ -16,7 +16,7 @@ function Test() {
         <h3>Development</h3>
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey={"0"}>
-            <Accordion.Header>Rampage Flights 1 & 3 odds (turbo)</Accordion.Header>
+            <Accordion.Header>This is a test page.</Accordion.Header>
             <Accordion.Body>
               <Row>
                 <Col md={6} lg={5}>
