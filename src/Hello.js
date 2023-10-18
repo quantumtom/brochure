@@ -14,7 +14,7 @@ function Hello() {
             favorable perception of the company and its business. We hope to persuade you into having positive emotions
             whenever you think about Socktan Digital.</p>
           <p>
-            Some say we're just <i>technically</i> creative.
+            Some say we are <i>technically</i> creative.
           </p>
         </Container>
         <Container>
