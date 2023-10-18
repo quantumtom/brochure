@@ -1,0 +1,83 @@
+[
+  {
+    "id": "0",
+    "slug": "redbull",
+    "first": true,
+    "title": "RoxRite 100",
+    "link": "http://www.roxrite100.com",
+    "caption": "A single-page app showcasing the career of breakdancing legend RoxRite.",
+    "image": {
+      "url": "img/roxrite-t.gif"
+    }
+  },
+  {
+    "id": "1",
+    "slug": "redbull",
+    "title": "Red Bull Organics",
+    "link": "https://www.redbull.com/int-en/theorganics",
+    "caption": "Site marketing the Red Bull Organics line of beverages.",
+    "image": {
+      "url": "img/redbullorganics.png"
+    }
+  },
+  {
+    "id": "2",
+    "slug": "anthem",
+    "title": "Anthem/Blue Cross",
+    "link": "https://connects.anthem.com",
+    "caption": "Deutsch wanted Anthem to improve the usability of their four public-facing web sites. After a third-party conducted a statistical usability study, we took the redesigned site and implemented all of the new design specs in a standards-compliant, cross-browser compatible web stack.",
+    "image": {
+      "url": "img/blue-cross.png"
+    }
+  },
+  {
+    "id": "3",
+    "slug": "Htc",
+    "title": "Verizon Wireless",
+    "link": "https://www.webkitlab.com",
+    "caption": "Verizon introduced the HTC ReZound smartphone and wanted a mobile site to\n                    show off the phone. We built a mobile site with a touchscreen interface. Like a 360 view of the phone that\"s rotated by swiping the touch screen left or right.",
+    "image": {
+      "url": "img/htc-rezound-96x96.jpg"
+    }
+  },
+  {
+    "id": "4",
+    "slug": "Bare",
+    "title": "Bare Escentuals",
+    "link": "https://www.facebook.com/bareminerals?sk=app_185852401487880",
+    "caption": "Bare Escentuals Cosmetics' \"Be a Force of Beauty&trade;\" campaign. With seven video segments, it made sense to build a streaming video player.",
+    "image": {
+      "url": "img/be-96x96.jpg"
+    }
+  },
+  {
+    "id": "5",
+    "slug": "Gt",
+    "title": "GameTrailers",
+    "link": "https://www.gametrailers.com/netstorage/mobile",
+    "caption": "MTV Networks' Entertainment Division wanted to spruce up their mobile presence ahead of the 2011\n                    Electronics Entertainment Expo. Solution: rapid deployment of a mobile (HTML5) version of their site.",
+    "image": {
+      "url": "img/gt-mobile-reviews-96x96.png"
+    }
+  },
+  {
+    "id": "8",
+    "slug": "Morgan",
+    "title": "Captain Morgan Rum",
+    "link": "http://bracketmaster.spike.com",
+    "caption": "In previous years, the Captain Morgan Bracket Master Challenge had been built with Adobe Flash. We took that experience and recreated it in JavaScript, CSS, and HTML.",
+    "image": {
+      "url": "img/captain-morgan-96x96.jpg"
+    }
+  },
+  {
+    "id": "9",
+    "slug": "Disney",
+    "title": "Disney Family",
+    "link": "http://family.disney.com/",
+    "caption": "Right around the time the iPad came out, people at Disney Family.com started to realize they were going to have to do something about their Flash-driven content. We were able to reverse-engineer the \"feature carousel\" that sits in the center well of the kaboose.com landing page. The seamless transition was accomplished using the YUI library.",
+    "image": {
+      "url": "img/disney-family-96x96.png"
+    }
+  }
+]
