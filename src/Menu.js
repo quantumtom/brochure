@@ -7,7 +7,7 @@ function Menu() {
   return (
       <Navbar expand={"md"} className={"bg-body-tertiary navigation-menu"}>
         <Container>
-          <Navbar.Brand href={"/"}>
+          <Navbar.Brand href={"/about"}>
             <p>Socktan, Inc.</p>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={"basic-navbar-nav"} className={"float-start"} />
@@ -24,9 +24,6 @@ function Menu() {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href={"/contact"}>Contact</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href={"/test"}>Test</Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>
