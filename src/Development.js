@@ -18,7 +18,7 @@ function Development(props) {
       <Container className={"text-justify"}>
         <h3>Development</h3>
 
-        <Accordion defaultActiveKey="{0}">
+        <Accordion defaultActiveKey="0">
 
           {
             jobsData.map((job) =>

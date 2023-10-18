@@ -22,6 +22,12 @@ function Menu() {
               <Nav.Item>
                 <Nav.Link href={"/contact"}>Contact</Nav.Link>
               </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href={"/reseasrch"}>Research</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href={"/test"}>Test</Nav.Link>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>
