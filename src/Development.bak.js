@@ -1,5 +1,5 @@
 import './Development.css';
-import Container from 'react-bootstrap/container';
+import Container from 'react-bootstrap/Container';
 import { Row, Col, Accordion } from 'react-bootstrap';
 import workData from './work.json';
 

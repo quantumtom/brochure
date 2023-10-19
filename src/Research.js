@@ -1,5 +1,5 @@
 import './Research.css';
-import Container from "react-bootstrap/container"
+import Container from "react-bootstrap/Container"
 import { Accordion, Col, Row } from "react-bootstrap";
 
 function Research() {
