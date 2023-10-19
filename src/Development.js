@@ -3,14 +3,13 @@ import Container from 'react-bootstrap/container';
 import { Row, Col, Accordion } from 'react-bootstrap';
 import jobsData from './work.json';
 
-function Development(props) {
+function Development() {
 
   return (
       <Container className={"text-justify"}>
-        <h3>Development</h3>
+        <h5>Development</h5>
 
         <Accordion defaultActiveKey="0">
-
           {
             jobsData.map((job) =>
                 <Accordion.Item eventKey={job.id} key={job.id}>

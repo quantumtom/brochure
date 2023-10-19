@@ -5,7 +5,7 @@ import { Accordion, Col, Row } from "react-bootstrap";
 function Research() {
   return (
       <Container className={"text-justify"}>
-        <h3>Development</h3>
+        <h5>Research</h5>
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey={"0"}>
             <Accordion.Header>Rampage Flights 1 & 3 odds (turbo)</Accordion.Header>
