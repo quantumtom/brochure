@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import './custom.scss';
-// import './bootstrap-theme.css';
 import './sketchfab.css';
-import App from './App';
 import Menu from './Menu';
+import App from './App';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +15,7 @@ root.render(
     <React.StrictMode>
       <Menu />
       <App />
+      <Footer />
     </React.StrictMode>
 );
 
