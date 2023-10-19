@@ -34,7 +34,7 @@ function Test() {
 }
 
 const testRenderer = TestRenderer.create(<Test />);
-const testInstance = testRenderer.root;
+// const testInstance = testRenderer.root;
 
 // expect(testInstance.findByType(SubComponent).props.foo).toBe('bar');
 // expect(testInstance.findByProps({className: "sub"}).children).toEqual(['Sub']);
