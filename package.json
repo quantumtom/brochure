@@ -1,6 +1,7 @@
 {
   "name": "brochure",
   "version": "0.3.0",
+  "homepage": "/",
   "engines": {
     "node": "20.x",
     "npm": "10.x"

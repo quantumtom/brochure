@@ -1,11 +1,12 @@
+import './sketchfab.css';
 import './Research.css';
 import Container from "react-bootstrap/Container"
 import { Accordion, Col, Row } from "react-bootstrap";
 
-function Research() {
+function Services() {
   return (
       <Container className={"text-justify"}>
-        <h5>Research</h5>
+        <h3>Research</h3>
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey={"0"}>
             <Accordion.Header>Rampage Flights 1 & 3 odds (turbo)</Accordion.Header>
@@ -28,4 +29,4 @@ function Research() {
 );
 }
 
-export default Research;
+export default Services;

@@ -1,8 +1,8 @@
-import './Hello.css';
+import './About.css';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 
-function Hello() {
+function About() {
   return (
       <Container>
         <Container className={"text-center"}>
@@ -27,4 +27,4 @@ function Hello() {
   );
 }
 
-export default Hello;
+export default About;
