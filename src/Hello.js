@@ -10,11 +10,14 @@ function Hello() {
           <hr />
         </Container>
         <Container className={"text-left"}>
-          <p>It's mostly just an effort to shape public opinion of our firm. Our aim here is to present a
-            favorable perception of the company and its business. We hope to persuade you into having positive emotions
-            whenever you think about Socktan Digital.</p>
           <p>
-            They say we are <b>technically creative</b>.
+            It's mostly just an effort to shape public opinion of our firm.
+          </p>
+          <p>
+            Our aim here is to present a favorable perception of the company and its business. We hope to persuade you, such that you will have a positive emotional response whenever you think about Socktan Digital.
+          </p>
+          <p>
+            Some say that we're <b>technically creative</b>.
           </p>
         </Container>
         <Container>

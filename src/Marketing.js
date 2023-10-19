@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 function Marketing() {
   return (
       <Container>
-        <h3>Marketing</h3>
+        <h5>Marketing</h5>
       </Container>
   );
 }

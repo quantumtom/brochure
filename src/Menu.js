@@ -8,11 +8,11 @@ function Menu() {
       <Navbar expand={"md"} className={"bg-body-tertiary navigation-menu"}>
         <Container>
           <Navbar.Brand href={"/about"}>
-            <p>Socktan, Inc.</p>
+            <h1>Socktan Digital</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={"basic-navbar-nav"} className={"float-start"} />
           <Navbar.Collapse id={"basic-navbar-nav"}>
-            <Nav className={"me-auto mb-2 mb-lg-0"}>
+            <Nav className={"me-auto"}>
               <Nav.Item>
                 <Nav.Link href={"/research"}>Research</Nav.Link>
               </Nav.Item>
