@@ -8,7 +8,7 @@ import Test from './Test.js';
 
 function App() {
   return (
-      <div className={"content"}>
+      <div>
         <BrowserRouter>
           <main>
             <Routes>
@@ -20,11 +20,6 @@ function App() {
             </Routes>
           </main>
         </BrowserRouter>
-        <footer className={"footer py-3 bg-body-tertiary sticky-bottom text-center"}>
-          <div className="copyright">
-            Socktan, Inc. &copy; 2023 &bull;&nbsp;<strong>Santa Monica, California</strong>
-          </div>
-        </footer>
       </div>
   );
 }
