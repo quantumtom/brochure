@@ -63,7 +63,7 @@
   {
     "id": "8",
     "slug": "Morgan",
-    "title": "Captain Morgan Rum",
+    "title": "Captain Morgan",
     "link": "http://bracketmaster.spike.com",
     "caption": "In previous years, the Captain Morgan Bracket Master Challenge had been built with Adobe Flash. We took that experience and recreated it in JavaScript, CSS, and HTML.",
     "image": {
