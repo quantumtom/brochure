@@ -3,18 +3,10 @@ import { useState, useEffect, useReducer } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 function Menu() {
   const [darkMode, setDarkMode] = useState(false);
-
-  let newTheme = 'dark';
-
-  useEffect(() => {
-    if (!darkMode) {
-      document.getElementsByTagName('html')[0].setAttribute('data-bs-theme','light');
-    } else {
-      document.getElementsByTagName('html')[0].setAttribute('data-bs-theme','dark');    }
-  }, [darkMode]);
 
   return (
       <Navbar expand={"md"} className={"bg-body-tertiary navigation-menu"}>
@@ -37,13 +29,23 @@ function Menu() {
               <Nav.Item>
                 <Nav.Link href={"/contact"}>Contact</Nav.Link>
               </Nav.Item>
-              <Nav.Item className={'dropdown'}>
-                <button className={`btn btn-primary btn-sm text-capitalize`} onClick={
-                  () => {
-                    setDarkMode(!darkMode);
-                  }
-                }
-                >{darkMode} mode</button>
+              <Nav.Item>
+                <Dropdown>
+                  <Dropdown.Toggle variant={'secondary'}>
+                    Light/Dark Mode
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu>
+                    <Dropdown.Item>
+                      Light mode
+                    </Dropdown.Item>
+                    <Dropdown.Item>
+                      Dark mode
+                    </Dropdown.Item>
+                    <Dropdown.Item>
+                      Auto mode
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>
