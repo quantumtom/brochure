@@ -22,7 +22,7 @@ function Contact() {
 
   return (<Container>
         <Container className={"text-left"}>
-          <h5>Contact Us</h5>
+          <h3>Contact Us</h3>
           <Row>
             <Col>
               <p>Let's discuss the situation. We can gather around the campfire.</p>

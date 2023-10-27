@@ -7,7 +7,7 @@ function Development() {
 
   return (
       <Container className={"text-justify"}>
-        <h5>Development</h5>
+        <h3>Development</h3>
 
         <Accordion defaultActiveKey="0">
           {
