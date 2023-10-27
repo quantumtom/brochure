@@ -29,24 +29,6 @@ function Menu() {
               <Nav.Item>
                 <Nav.Link href={"/contact"}>Contact</Nav.Link>
               </Nav.Item>
-              <Nav.Item>
-                <Dropdown>
-                  <Dropdown.Toggle variant={'secondary'}>
-                    Light/Dark Mode
-                  </Dropdown.Toggle>
-                  <Dropdown.Menu>
-                    <Dropdown.Item>
-                      Light mode
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      Dark mode
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      Auto mode
-                    </Dropdown.Item>
-                  </Dropdown.Menu>
-                </Dropdown>
-              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>

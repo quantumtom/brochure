@@ -6,7 +6,6 @@ import './custom.scss';
 import Menu from './Menu';
 import App from './App';
 import Footer from './Footer';
-import bsColorToggler from './bs-color-toggler';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
