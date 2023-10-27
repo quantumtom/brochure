@@ -1,14 +1,10 @@
 import './Menu.css';
-import { useState, useEffect, useReducer } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
-import Dropdown from 'react-bootstrap/Dropdown';
 
 function Menu() {
-  const [darkMode, setDarkMode] = useState(false);
-
-  return (
+    return (
       <Navbar expand={"md"} className={"bg-body-tertiary navigation-menu"}>
         <Container>
           <Navbar.Brand href={"/about"}>
