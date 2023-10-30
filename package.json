@@ -27,7 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "serve": "serve -s build",
+    "serve": "npm run serve.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
