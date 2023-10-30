@@ -30,10 +30,10 @@ app.post('/contact', function (req, res) {
 
   //Mail options
   mailOpts = {
-    from: req.body.userName + ' &lt;' + req.body.userEmail + '&gt;', //grab form data from the request body object
+    from: req.body.formBasicName + ' &lt;' + req.body.formBasicEmail + '&gt;', //grab form data from the request body object
     to: 'cornyn@gmail.com',
     subject: 'Website contact form',
-    text: req.body.userMessage
+    text: req.body.formBasicTelephone
   };
 
   console.log(req.body);

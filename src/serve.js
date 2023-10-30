@@ -1,4 +1,4 @@
-const Server = require('./server');
+const Server = require('./express');
 require('dotenv').config()
 
 Server.start();
