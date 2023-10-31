@@ -1,5 +1,5 @@
-const express = require('express');
-const app = express();
+const server = require('express');
+const app = server();
 const compress = require('compression');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -8,7 +8,7 @@ app.use(compress());
 
 console.log('__dirname = ' + __dirname);
 
-app.use('/', express.static(__dirname + '/build'));
+app.use('/', server.static(__dirname + '/build'));
 app.use(bodyParser.json());
 app.set('port', process.env.PORT || 5000);
 

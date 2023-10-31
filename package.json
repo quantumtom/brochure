@@ -30,7 +30,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "serve": "node run serve.js",
+    "serve": "node serve.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
