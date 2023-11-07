@@ -1,8 +1,11 @@
+const dotenv = require('dotenv');
 const server = require('express');
 const app = server();
 const compress = require('compression');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+
+dotenv.config();
 
 app.use(compress());
 
@@ -10,13 +13,13 @@ console.log('__dirname = ' + __dirname);
 
 app.use('/', server.static(__dirname + '/build'));
 app.use(bodyParser.json());
-app.set('port', process.env.PORT || 5000);
+app.set('port', process.env.PORT || 5001);
 
 app.listen(app.get('port'), function() {
   console.log('listening');}
 );
 
-app.post('/contact', function (req, res) {
+app.post('/mailer', function (req, res) {
   let mailOpts, smtpTrans;
 
   //Setup Nodemailer transport, I chose gmail. Create an application-specific password to avoid problems.
