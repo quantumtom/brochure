@@ -6,6 +6,7 @@
     "node": "20.x",
     "npm": "10.x"
   },
+  "proxy": "http://localhost:5001",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
@@ -30,7 +31,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "serve": "node serve.js",
+    "serve": "serve -s build",
+    "mailer": "node Server.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
