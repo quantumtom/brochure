@@ -18,6 +18,8 @@ function Contact() {
     }
 
     setValidated(true);
+
+
   };
 
   return (<Container>
