@@ -8,7 +8,7 @@ function Menu() {
       <Navbar expand={"md"} className={"bg-body-tertiary navigation-menu"}>
         <Container>
           <Navbar.Brand href={"/"}>
-            <p>Socktan, Inc.</p>
+            <a href={'#'}>Socktan Digital</a>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={"basic-navbar-nav"} className={"float-start"} />
           <Navbar.Collapse id={"basic-navbar-nav"}>
