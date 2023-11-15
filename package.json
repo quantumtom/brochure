@@ -2,10 +2,6 @@
   "name": "brochure",
   "version": "0.3.0",
   "homepage": "/",
-  "engines": {
-    "node": "20.x",
-    "npm": "10.x"
-  },
   "proxy": "http://localhost:5001",
   "private": true,
   "dependencies": {
